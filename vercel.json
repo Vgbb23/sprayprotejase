@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "cd \"segura-pronta---proteção-feminina\" && npm ci",
+  "buildCommand": "cd \"segura-pronta---proteção-feminina\" && npm run build",
+  "outputDirectory": "segura-pronta---proteção-feminina/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
